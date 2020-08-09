@@ -1,0 +1,6 @@
+{{extend './common/layout.art'}}
+//往layout.art 里面的head填充内容
+// block标记可以填充当前模板特有的内容
+    {{block 'head'}}{{msg}}{{/block}}  
+   {{block 'content'}}我是内容{{/block}}
+

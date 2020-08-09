@@ -1,0 +1,11 @@
+{{msg}}
+ <ul>
+    <!-- 循环数组 -->
+    {{each users}}
+       <li>
+           {{$value.name}}
+           {{$value.age}}
+
+       </li>
+    {{/each}}
+   </ul>

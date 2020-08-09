@@ -1,0 +1,7 @@
+
+   {{include './common/header.art'}}
+   {{msg}}
+   {{include './common/footer.art'}}
+<%include('./common/header.art')%>
+<%=msg%>
+<%include('./common/footer.art')%>

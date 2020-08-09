@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- 
+        method:指定当前表单提交方式
+        action:指定当前表单提交的地址
+     -->
+    <form action="http://localhost:10000" method="POST">
+        <!-- 
+            服务器端通过name属性来获取表单的内容
+            GET请求的请求参数是在地址栏当中进行传输的
+            POST请求的参数不在请求地址中，而是在请求报文中
+         -->
+        <input type="text" name="username">
+        <input type="password" name="password">
+        <input type="submit" value="提交">
+    </form>
+</body>
+
+</html>

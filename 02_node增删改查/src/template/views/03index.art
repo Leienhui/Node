@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <!-- 标准语法 -->
+    <ul>
+        <!-- 开始循环users这个数组, ,循环一次生成一个li标签-->
+        {{each users}}
+            <li>
+                {{$value.name}}
+                {{$value.age}}
+                {{$value.sex}}
+
+            </li>
+        {{/each}}
+    </ul>
+    <!-- 原始语法 -->
+    <ul>
+        <% for (var i=0;i<users.length;i++){%>
+            <li>
+                <!-- 要输出就要写  = -->
+                <%=users[i].name%>
+                <%=users[i].age%>
+                <%=users[i].sex%>
+
+            </li>
+        <%}%>
+
+    </ul>
+</body>
+</html>

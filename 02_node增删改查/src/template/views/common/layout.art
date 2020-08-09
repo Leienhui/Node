@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML骨架</title>
+    //预留坑，方便别的模板来填充
+    {{block 'head'}}{{/block}}   
+</head>
+<body>
+   {{block 'content'}}{{/block}}
+</body>
+</html>

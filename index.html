@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML骨架</title>
+</head>
+<body>
+   <ul>
+    <!-- 循环数组 -->
+    {{each users}}
+       <li>
+           {{$value.name}}
+           {{$value.age}}
+
+       </li>
+    {{/each}}
+   </ul>
+</body>
+</html>

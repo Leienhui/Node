@@ -1,0 +1,12 @@
+{
+    "baseInfo":{
+        "name":"LEH",
+        "age":"18",
+        "university":"tust.edu.cn"
+    },
+    "hobby":{
+        "pingpang":1,
+        "basketball":2,
+        "taodi":3
+    }
+}
